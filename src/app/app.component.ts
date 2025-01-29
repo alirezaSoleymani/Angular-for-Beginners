@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { CountComponent } from './count/count.component';
+import { CounterComponent } from './counter/counter.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, CountComponent],
+  imports: [RouterOutlet, CounterComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
 })
